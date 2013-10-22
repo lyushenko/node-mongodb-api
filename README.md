@@ -9,7 +9,7 @@ It is influenced by systems like Ruby's Event Machine or Python's Twisted.
 
 To install the application you need to make sure you have Node.js and Node Package Manager (NPM) installed.
 
-1. Open these links and follow the installation instructions depending on your system (http://nodejs.org/), (https://npmjs.org/)
+1. Open these links and follow the installation instructions depending on your system: http://nodejs.org/, https://npmjs.org/
 
 2. Run `git clone https://github.com/lyushenko/node-mongodb-api.git` and `cd node-mongodb-api`
 
@@ -17,7 +17,7 @@ To install the application you need to make sure you have Node.js and Node Packa
 
 4. Run `node server.js` to run the http server
 
-If the server has started without errors, you can open (http://localhost:1337/) in your browser to check if it's running.
+If the server has started without errors, you can open http://localhost:1337/ in your browser to check if it's running.
 
 ## RESTful API example calls
 
@@ -29,26 +29,26 @@ There are few examples of API calls:
 
 Creation of TODO items:
 ```bash
-http POST http://localhost:1337/api/todos name='Foo' status=false priority=1
-http POST http://localhost:1337/api/todos name='Bar' status=false priority=2
+$http POST http://localhost:1337/api/todos name='Foo' status=false priority=1
+$http POST http://localhost:1337/api/todos name='Bar' status=false priority=2
 ```
 
 Get TODO's listing:
-```
-http GET http://localhost:1337/api/todos
+```bash
+$http GET http://localhost:1337/api/todos
 ```
 
 Show single item:
-```
-http http://localhost:1337/api/todos/52667889afc96a3034000001
+```bash
+$http http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
 
 Update TODO item:
-```
-http PUT http://localhost:1337/api/todos/52667889afc96a3034000001 name='Foo' status=true priority=0
+```bash
+$http PUT http://localhost:1337/api/todos/52667889afc96a3034000001 name='Foo' status=true priority=0
 ```
 
 Delete TODO item:
-```
-http DELETE http://localhost:1337/api/todos/52667889afc96a3034000001
+```bash
+$http DELETE http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
