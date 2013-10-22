@@ -29,26 +29,26 @@ There are few examples of API calls:
 
 Creation of TODO items:
 ```bash
-$http POST http://localhost:1337/api/todos name='Foo' status=false priority=1
-$http POST http://localhost:1337/api/todos name='Bar' status=false priority=2
+$ http POST http://localhost:1337/api/todos name='Foo' status=false priority=1
+$ http POST http://localhost:1337/api/todos name='Bar' status=false priority=2
 ```
 
 Get TODO's listing:
 ```bash
-$http GET http://localhost:1337/api/todos
+$ http GET http://localhost:1337/api/todos
 ```
 
 Show single item:
 ```bash
-$http http://localhost:1337/api/todos/52667889afc96a3034000001
+$ http http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
 
 Update TODO item:
 ```bash
-$http PUT http://localhost:1337/api/todos/52667889afc96a3034000001 name='Foo' status=true priority=0
+$ http PUT http://localhost:1337/api/todos/52667889afc96a3034000001 name='Foo' status=true priority=0
 ```
 
 Delete TODO item:
 ```bash
-$http DELETE http://localhost:1337/api/todos/52667889afc96a3034000001
+$ http DELETE http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
