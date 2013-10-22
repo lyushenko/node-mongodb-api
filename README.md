@@ -40,7 +40,7 @@ $ http GET http://localhost:1337/api/todos
 
 Show single item:
 ```bash
-$ http http://localhost:1337/api/todos/52667889afc96a3034000001
+$ http GET http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
 
 Update TODO item:
