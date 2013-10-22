@@ -52,3 +52,5 @@ Delete TODO item:
 ```bash
 $ http DELETE http://localhost:1337/api/todos/52667889afc96a3034000001
 ```
+
+![API Call](https://raw.github.com/lyushenko/node-mongodb-api/master/public/api_call.png)
