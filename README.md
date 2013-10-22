@@ -1,4 +1,4 @@
-# Node.js + MongoDB: RESTful API for TODO list app
+# Node.js + MongoDB: RESTful API
 
 This is a Node.js HTTP server providing RESTful API to manage TODO's stored in MongoDB.
 It is based on Express.js framework (inspired by Sinatra on Ruby), Mongoose - a MongoDB
